@@ -1,7 +1,7 @@
 
 #!/usr/bin/env bash
 
-TOTAL_RUNS=5
+TOTAL_RUNS=50
 FAILED_RUNS=0
 
 for i in $(seq 1 "$TOTAL_RUNS"); do
