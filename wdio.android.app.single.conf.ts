@@ -33,8 +33,8 @@ export const config = {
         {
             platformName: 'Android',
             'appium:automationName': 'UiAutomator2',
-            'appium:deviceName': 'Galaxy S20',
-            'appium:platformVersion': '11',
+            // 'appium:deviceName': 'Galaxy S20',
+            // 'appium:platformVersion': '11',
             'appium:app': appUrl,
             'appium:noReset': false,
             'lt:options': {
@@ -44,7 +44,11 @@ export const config = {
                 name: 'Android App Single Test',
                 visual: true,
                 video: true,
-                w3c: true
+                w3c: true,
+                deviceName: 'Galaxy S20',
+                platformVersion: '10',
+                udid:"RFCN90S2CGX",
+                privateCloud:true,
             }
         }
     ],
