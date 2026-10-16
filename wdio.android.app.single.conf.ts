@@ -40,14 +40,14 @@ export const config = {
             'lt:options': {
                 isRealMobile: true,
                 appiumVersion: '1.22.3',
-                build: ' CI Job Run WDIO Cucumber Android App - Single',
+                build: ' CI Job Debug',
                 name: 'Android App Single Test',
                 visual: true,
                 video: true,
                 w3c: true,
-                deviceName: 'Galaxy S20',
-                platformVersion: '10',
-                udid:"RFCN90S2CGX",
+                deviceName: 'Galaxy A14',
+                platformVersion: '15',
+                udid:"RZ8W50EEZGE",
                 privateCloud:true,
             }
         }
