@@ -40,7 +40,7 @@ export const config = {
             'lt:options': {
                 isRealMobile: true,
                 appiumVersion: '1.22.3',
-                build: 'WDIO Cucumber Android App - Single',
+                build: ' CI Job Run WDIO Cucumber Android App - Single',
                 name: 'Android App Single Test',
                 visual: true,
                 video: true,
