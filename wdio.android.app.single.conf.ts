@@ -46,9 +46,7 @@ export const config = {
                 video: true,
                 w3c: true,
                 deviceName: 'Galaxy A14',
-                platformVersion: '15',
-                udid:"RZ8W50EEZGE",
-                privateCloud:true,
+                platformVersion: '15'
             }
         }
     ],
